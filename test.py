@@ -10,7 +10,7 @@ else:
     print ("Es menor de edad.")
         
 if nombre == "Jorge":
-    print ("Usted va a la sala 1")
+    print ("UUsted va a la sala 1")
 elif nombre=="Pedro":
     print ("Usted va a la sala 2")
 elif nombre=="Paola":
