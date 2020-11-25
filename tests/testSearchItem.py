@@ -35,7 +35,7 @@ class SearchCases(unittest.TestCase):
         self.itemsPage = PageItems(self.driver)
         self.itemPage = PageItem(self.driver)
 
-    # @unittest.skip("Not needed now")
+    @unittest.skip("Not needed now")
     def test_search_no_elements(self):
         try:
             self.indexPage.search('hola')
@@ -43,7 +43,7 @@ class SearchCases(unittest.TestCase):
         except:
             self.driver.save_screenshot('error.png')
 
-    # @unittest.skip("Not needed now")
+    @unittest.skip("Not needed now")
     def test_search_find_dresses(self):
         self.indexPage.search('dress')
         self.assertTrue('DRESS' in self.itemsPage.return_section_title())
@@ -53,7 +53,7 @@ class SearchCases(unittest.TestCase):
         self.indexPage.search('t-shirts')
         self.assertTrue('T-SHIRTS' in self.itemsPage.return_section_title())
 
-    # @unittest.skip("Not needed now")
+    @unittest.skip("Not needed now")
     def test_meter_ropa_en_el_carrito(self):
         self.indexPage.search('t-shirts')
         self.itemsPage.click_orange_button()
@@ -69,7 +69,7 @@ class SearchCases(unittest.TestCase):
         self.itemsPage.select_by_index(3)
         time.sleep(3)
 
-    # @unittest.skip("Not needed now")
+    @unittest.skip("Not needed now")
     def test_dresses_options(self):
         self.indexPage.click_dresses()
         self.itemsPage.click_checkbox(2)
