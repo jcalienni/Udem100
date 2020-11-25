@@ -1,9 +1,0 @@
-Hola mundo!
-Tutorial de Python 3
-lunesmartesmiercolesjuevesviernessabadodomingolunes
-martes
-miercoles
-jueves
-viernes
-sabado
-domingo
